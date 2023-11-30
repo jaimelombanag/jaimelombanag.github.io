@@ -1,6 +1,6 @@
 {
-    "name": "estadisticas_maquinas",
-    "short_name": "estadisticas_maquinas",
+    "name": "administrador",
+    "short_name": "administrador",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
