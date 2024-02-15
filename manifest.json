@@ -1,6 +1,6 @@
 {
-    "name": "administrador",
-    "short_name": "administrador",
+    "name": "spia_view",
+    "short_name": "spia_view",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
