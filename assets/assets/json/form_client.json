@@ -1,0 +1,119 @@
+[
+    {
+        "title": "Empresa",
+        "fields": [
+            {
+                "label": "Empresa",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Identificación",
+        "fields": [
+            {
+                "label": "Identificación",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Nombre Contacto",
+        "fields": [
+            {
+                "label": "Nombre Contacto",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Correo",
+        "fields": [
+            {
+                "label": "correo",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Teléfono",
+        "fields": [
+            {
+                "label": "teléfono",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Dirección",
+        "fields": [
+            {
+                "label": "Dirección",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Contraseña",   
+        "fields": [
+            {
+                "isPassword": true,
+                "label": "contraseña",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Estado",
+        "fields": [
+            {
+                "label": "Select",
+                "fieldType": "SelectList",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Activo",
+                        "optionValue": "Activo"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "InActivo",
+                        "optionValue": "InActivo"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Ciudad",
+        "fields": [
+            {
+                "label": "Select",
+                "fieldType": "SelectList",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Cali",
+                        "optionValue": "Cali"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Bogotá",
+                        "optionValue": "Bogotá"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Villavicencio",
+                        "optionValue": "Villavicencio"
+                    }
+                ]
+            }
+        ]
+    }
+
+]
