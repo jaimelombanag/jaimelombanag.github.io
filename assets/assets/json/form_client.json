@@ -1,9 +1,38 @@
 [
     {
-        "title": "Empresa",
+        "title": "Nombre",
         "fields": [
             {
-                "label": "Empresa",
+                "label": "Nombre",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Apellido",
+        "fields": [
+            {
+                "label": "Apellido",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+   
+    
+    {
+        "title": "Correo",
+        "fields": [
+            {
+                "label": "Correo",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Teléfono",
+        "fields": [
+            {
+                "label": "Teléfono",
                 "fieldType": "TextInput"
             }
         ]
@@ -13,33 +42,6 @@
         "fields": [
             {
                 "label": "Identificación",
-                "fieldType": "TextInput"
-            }
-        ]
-    },
-    {
-        "title": "Nombre Contacto",
-        "fields": [
-            {
-                "label": "Nombre Contacto",
-                "fieldType": "TextInput"
-            }
-        ]
-    },
-    {
-        "title": "Correo",
-        "fields": [
-            {
-                "label": "correo",
-                "fieldType": "TextInput"
-            }
-        ]
-    },
-    {
-        "title": "Teléfono",
-        "fields": [
-            {
-                "label": "teléfono",
                 "fieldType": "TextInput"
             }
         ]
@@ -58,13 +60,13 @@
         "fields": [
             {
                 "isPassword": true,
-                "label": "contraseña",
+                "label": "Contraseña",
                 "fieldType": "TextInput"
             }
         ]
     },
     {
-        "title": "Estado",
+        "title": "Sexo",
         "fields": [
             {
                 "label": "Select",
@@ -73,47 +75,17 @@
                     {
                         "color": "#FFFFFF",
                         "is_faulty": false,
-                        "optionLabel": "Activo",
-                        "optionValue": "Activo"
+                        "optionLabel": "Femenino",
+                        "optionValue": "Femenino"
                     },
                     {
                         "color": "#FFFFFF",
                         "is_faulty": false,
-                        "optionLabel": "InActivo",
-                        "optionValue": "InActivo"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "title": "Ciudad",
-        "fields": [
-            {
-                "label": "Select",
-                "fieldType": "SelectList",
-                "options": [
-                    {
-                        "color": "#FFFFFF",
-                        "is_faulty": false,
-                        "optionLabel": "Cali",
-                        "optionValue": "Cali"
-                    },
-                    {
-                        "color": "#FFFFFF",
-                        "is_faulty": false,
-                        "optionLabel": "Bogotá",
-                        "optionValue": "Bogotá"
-                    },
-                    {
-                        "color": "#FFFFFF",
-                        "is_faulty": false,
-                        "optionLabel": "Villavicencio",
-                        "optionValue": "Villavicencio"
+                        "optionLabel": "Masculino",
+                        "optionValue": "Masculino"
                     }
                 ]
             }
         ]
     }
-
 ]
