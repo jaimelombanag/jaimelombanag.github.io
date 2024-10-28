@@ -1,6 +1,6 @@
 {
-    "name": "spia_view",
-    "short_name": "spia_view",
+    "name": "benstart",
+    "short_name": "benstart",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

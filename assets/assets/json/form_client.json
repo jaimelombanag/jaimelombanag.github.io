@@ -1,0 +1,91 @@
+[
+    {
+        "title": "Nombre",
+        "fields": [
+            {
+                "label": "Nombre",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Apellido",
+        "fields": [
+            {
+                "label": "Apellido",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+   
+    
+    {
+        "title": "Correo",
+        "fields": [
+            {
+                "label": "Correo",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Teléfono",
+        "fields": [
+            {
+                "label": "Teléfono",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Identificación",
+        "fields": [
+            {
+                "label": "Identificación",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Dirección",
+        "fields": [
+            {
+                "label": "Dirección",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Contraseña",   
+        "fields": [
+            {
+                "isPassword": true,
+                "label": "Contraseña",
+                "fieldType": "TextInput"
+            }
+        ]
+    },
+    {
+        "title": "Sexo",
+        "fields": [
+            {
+                "label": "Select",
+                "fieldType": "SelectList",
+                "options": [
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Femenino",
+                        "optionValue": "Femenino"
+                    },
+                    {
+                        "color": "#FFFFFF",
+                        "is_faulty": false,
+                        "optionLabel": "Masculino",
+                        "optionValue": "Masculino"
+                    }
+                ]
+            }
+        ]
+    }
+]
