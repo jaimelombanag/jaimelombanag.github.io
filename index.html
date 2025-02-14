@@ -34,5 +34,11 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+  // Permitir solicitudes HTTP en desarrollo (no recomendado para producción)
+  if (location.protocol !== 'https:') {
+    location.protocol = 'https';
+  }
+</script>
 </body>
 </html>
